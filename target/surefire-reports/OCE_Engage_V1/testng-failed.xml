@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OCE_Engage_V1]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.oceengage.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="OCE Engage App Testing chrome(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.oceengage.testCases.TC_Initiation_002">
+        <methods>
+          <include name="InitiationPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.oceengage.testCases.TC_Initiation_002 -->
+    </classes>
+  </test> <!-- OCE Engage App Testing chrome(failed) -->
+</suite> <!-- Failed suite [OCE_Engage_V1] -->

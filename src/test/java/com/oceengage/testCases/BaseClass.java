@@ -10,9 +10,11 @@ import java.util.Date;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -32,8 +34,10 @@ public class BaseClass {
 	public String baseURL=readconfig.getAppURL();
 	public String username=readconfig.getUsername();
 	public String password=readconfig.getPassword();
+	public String country=readconfig.getCountry();
 	public static WebDriver driver;
 	public static Logger logger;
+	
 	
 	@Parameters("browser")
 	@BeforeClass
@@ -43,6 +47,8 @@ public class BaseClass {
 		ChromeOptions options = new ChromeOptions();
 		options.setBinary("C:\\Users\\GBalakrishna\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
 		options.addArguments("--disable-notifications");
+		options.addArguments("force-device-scale-factor=0.75");
+		options.addArguments("high-dpi-support=0.75");
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setAcceptInsecureCerts(true);
 
@@ -56,6 +62,7 @@ public class BaseClass {
 		{
 				System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
 				driver= new ChromeDriver();
+
 		}
 		
 		else if(br.equals("firefox"))
@@ -82,7 +89,7 @@ public class BaseClass {
 	{
 
 		//driver.close();
-		driver.quit();
+		//driver.quit();
 		//logger.info("Browser closed successfully.");
 	}
 	
