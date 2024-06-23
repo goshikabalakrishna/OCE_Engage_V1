@@ -40,10 +40,11 @@ public class Reporting extends TestListenerAdapter
 		extent.setSystemInfo("Host Name", "LocalHost");
 		extent.setSystemInfo("Environment", "QA");
 		extent.setSystemInfo("user", "Bala");
+		extent.setSystemInfo("Applicaiton", "Salesforce");
 		
 		htmlReporter.config().setDocumentTitle("OCE Engage Test Automation");
 		htmlReporter.config().setReportName("Functional test automation");
-		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
+		htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
 		htmlReporter.config().setTheme(Theme.DARK);
 	}
 	public void onTestSuccess(ITestResult tr)

@@ -1,10 +1,9 @@
 package com.oceengage.testCases;
 
 import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.event.KeyEvent;
+
 import java.io.IOException;
-import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
@@ -12,7 +11,7 @@ import java.util.Date;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
@@ -121,8 +120,13 @@ public class TC_Initiation_002 extends BaseClass
 		selectPromotionNature.click();
 		logger.info("Promotion Nature is Selected");
 		
-		//WebElement drpdownFB= driver.findElement(By.xpath("//button[@name='OCE__FBServedBy__c']"));
-		//drpdownFB.isDisplayed();
+		WebElement drpdownFB= driver.findElement(By.xpath("//button[@name='OCE__FBServedBy__c']"));
+		drpdownFB.click();
+		Thread.sleep(1000);
+		WebElement selectFB= driver.findElement(By.xpath("//button[@name='OCE__FBServedBy__c']//following::div[2]/lightning-base-combobox-item[2]"));
+		selectFB.click();
+		logger.info("FB is Selected");
+		
 		
 		WebElement details = driver.findElement(By.xpath("//span[contains(text(),'Details')]"));
 		details.click();
@@ -133,13 +137,10 @@ public class TC_Initiation_002 extends BaseClass
 		
 		WebElement next = driver.findElement(By.xpath("//body[1]/div[4]/div[1]/section[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/section[1]/div[1]/div[1]/section[1]/flowruntime-flow[1]/flowruntime-lwc-body[1]/div[1]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[4]/flowruntime-aura-field[1]/div[1]/div[1]/div[2]/engage-apo-button[1]/button[1]"));
 		next.click();
-		//ip.clickNext3();
-		//logger.info("Moving to Date page");
 		
 		Thread.sleep(10000);
 		logger.info("Date Time Page Displayed");
 		
-
 		WebElement drpdownHostingTimezone= driver.findElement(By.xpath("//button[@name='OCE__HostingRegionTimezone__c']"));
 		drpdownHostingTimezone.click();
 		Thread.sleep(1000);
@@ -148,35 +149,44 @@ public class TC_Initiation_002 extends BaseClass
 		logger.info("Hosting Timezone is selected");
 		Thread.sleep(3000);
 		
+		//Beow is the code to Current Date
 		LocalDate currentDate = LocalDate.now();
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
 		String formattedDate = currentDate.format(formatter);
-		
-		
 		WebElement startDateInput = driver.findElement(By.xpath("(//div[@class=\"slds-form-element__control\"]//following::lightning-datepicker//input[@class=\"slds-input\"])[1]"));
 		startDateInput.sendKeys(formattedDate);
-		logger.info("Start Date Entered");
+		logger.info("Start Date Entered with Todays Date");
 		Thread.sleep(2000);
 		
-		//Calendar calendar = Calendar.getInstance();
-		//calendar.add(Calendar.DAY_OF_YEAR, 10); // Add 10 days
-		//Date futureDate = calendar.getTime();
-		//String formattedFutureDate = DateTimeFormatter.format(futureDate);
-		
+		//below code is for Future Date
+		Calendar calendar = Calendar.getInstance();
+		calendar.add(Calendar.DAY_OF_YEAR, 5);
+		Date futureDate = calendar.getTime();
+		SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+		String formattedEndDate = dateFormat.format(futureDate);
 		WebElement endDateInput = driver.findElement(By.xpath("(//div[@class=\"slds-form-element__control\"]//following::lightning-datepicker//input[@class=\"slds-input\"])[2]"));
-		endDateInput.sendKeys(formattedDate);
-		Thread.sleep(2000);
-		logger.info("End Date Entered");
+		endDateInput.sendKeys(formattedEndDate.toString());	
+		Thread.sleep(4000);
+		logger.info("End Date is Entered with Future Date");
+		
+		
+		WebElement FormattedEndReadOnly = driver.findElement(By.xpath("//span[contains(text(),'Formatted End Date/Time')]"));
+		FormattedEndReadOnly.click();
+		Thread.sleep(5000);
+		
 		
 		WebElement next1 = driver.findElement(By.xpath("//body[1]/div[4]/div[1]/section[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/section[1]/div[1]/div[1]/section[1]/flowruntime-flow[1]/flowruntime-lwc-body[1]/div[1]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[4]/flowruntime-aura-field[1]/div[1]/div[1]/div[2]/engage-apo-button[1]/button[1]"));
 		next1.click();
 		
-		logger.info("Objective section is displayed");
 		
-		//WebElement objective = driver.findElement(By.xpath("//flowruntime-lwc-body/div[1]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[3]/flowruntime-aura-field[1]/div[1]/engage-meeting-initiation-edit-form[1]/c-apo-form-group[1]/div[1]/slot[1]/lightning-record-edit-form[1]/lightning-record-edit-form-create[1]/form[1]/slot[1]/slot[1]/div[1]/div[1]/lightning-input-field[1]/lightning-quill[1]/lightning-input-rich-text[1]/div[1]/div[1]/div[1]/div[2]"));
-		//objective.sendKeys("Objective informtion to be entered for the checking.");
-		//logger.info("Objective section is clicked");
-		Thread.sleep(5000);
+		//Objective Section need to impplement
+		
+		/*WebElement objective = driver.findElement(By.xpath("//span[text()=\"Objectives\"]//parent::span//following-sibling::div//div[@class=\"slds-rich-text-editor__textarea slds-grid editor ql-container\"]//div//p"));
+		//objective.click();
+		Thread.sleep(2000);
+		objective.sendKeys("Objective informtion to be entered for the checking which is mandatory field in meeeting details page");
+		logger.info("Objective information is entered");
+		Thread.sleep(5000); */
 		
 		WebElement next2 = driver.findElement(By.xpath("//body[1]/div[4]/div[1]/section[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/section[1]/div[1]/div[1]/section[1]/flowruntime-flow[1]/flowruntime-lwc-body[1]/div[1]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[4]/flowruntime-aura-field[1]/div[1]/div[1]/div[2]/engage-apo-button[1]/button[1]"));
 		next2.click();
@@ -190,18 +200,29 @@ public class TC_Initiation_002 extends BaseClass
 		
 		logger.info("Ready to create account");
 
-		//JavascriptExecutor jse = (JavascriptExecutor) driver;
-		//jse.executeScript("window.scrollBy(0, 250)");
 		
 		WebElement create = driver.findElement(By.xpath("//body[1]/div[4]/div[1]/section[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/section[1]/div[1]/div[1]/section[1]/flowruntime-flow[1]/flowruntime-lwc-body[1]/div[1]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[5]/flowruntime-aura-field[1]/div[1]/div[1]/div[2]/engage-apo-button[1]/button[1]"));
 		create.click();
-		Thread.sleep(20000);
-		logger.info("Account is created.");
+		Thread.sleep(25000);
 		
-		
-		
-		
-
+		if (driver.getTitle().equals(meetingName+" | Meeting | Salesforce")) 
+		{
+			Assert.assertTrue(true);
+			logger.info("Account created successfully.");
+			lp.clickUserProfile();
+			Thread.sleep(3000);
+			//lp.clickLogout();
+			//Thread.sleep(3000);
+			//logger.info("Logout Successfully.!");
+			
+		}
+		else
+		{
+			Assert.assertTrue(false);
+			logger.info("Account Creation Failed.");
+			captureScreen(driver, "Initiation Page");
+		}
+			
 	
 	}
 	

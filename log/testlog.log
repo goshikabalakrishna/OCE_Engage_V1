@@ -1503,3 +1503,383 @@
 2024-06-22 21:48:26,111 - OCE_Engage_V1 -INFO - Review page is opened
 2024-06-22 21:48:29,231 - OCE_Engage_V1 -INFO - Ready to create account
 2024-06-22 21:48:49,363 - OCE_Engage_V1 -INFO - Account is created.
+2024-06-23 13:17:33,512 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 13:17:35,004 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 13:17:36,252 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 13:17:53,908 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 13:17:53,908 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 13:17:59,029 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 13:18:04,161 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 13:18:24,294 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 13:18:34,440 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 13:18:34,598 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 13:18:36,719 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 13:18:41,844 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 13:18:57,047 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 13:18:57,389 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 13:18:59,566 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 13:19:02,847 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 13:19:04,080 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 13:19:05,340 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 13:19:07,459 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 13:19:22,652 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 13:19:23,995 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 13:19:27,227 - OCE_Engage_V1 -INFO - Start Date Entered
+2024-06-23 13:19:31,441 - OCE_Engage_V1 -INFO - End Date Entered
+2024-06-23 13:19:31,592 - OCE_Engage_V1 -INFO - Objective section is displayed
+2024-06-23 13:19:51,734 - OCE_Engage_V1 -INFO - Review page is opened
+2024-06-23 13:19:54,856 - OCE_Engage_V1 -INFO - Ready to create account
+2024-06-23 13:34:26,798 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 13:34:28,368 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 13:34:29,628 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 13:34:46,893 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 13:34:46,894 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 13:34:52,045 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 13:34:57,178 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 13:35:17,325 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 13:35:27,475 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 13:35:27,616 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 13:35:29,778 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 13:35:34,900 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 13:35:50,046 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 13:35:50,405 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 13:35:52,563 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 13:35:55,859 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 13:35:57,156 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 13:35:58,393 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 13:36:00,507 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 13:36:15,692 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 13:36:16,973 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 13:36:20,196 - OCE_Engage_V1 -INFO - Start Date Entered
+2024-06-23 13:36:24,458 - OCE_Engage_V1 -INFO - End Date Entered
+2024-06-23 13:36:24,586 - OCE_Engage_V1 -INFO - Objective section is displayed
+2024-06-23 13:36:44,733 - OCE_Engage_V1 -INFO - Review page is opened
+2024-06-23 13:36:47,837 - OCE_Engage_V1 -INFO - Ready to create account
+2024-06-23 13:59:23,004 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 13:59:24,441 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 13:59:25,668 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 13:59:44,020 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 13:59:44,020 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 13:59:49,205 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 13:59:54,346 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 14:00:14,488 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 14:00:24,627 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 14:00:24,824 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 14:00:27,631 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 14:00:32,805 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 14:00:48,051 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 14:00:48,544 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 14:00:50,727 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 14:00:54,199 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 14:00:55,505 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 14:00:56,788 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 14:00:58,930 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 14:01:14,172 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 14:01:15,556 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 14:01:18,818 - OCE_Engage_V1 -INFO - Start Date Entered
+2024-06-23 14:01:23,087 - OCE_Engage_V1 -INFO - End Date Entered
+2024-06-23 14:01:23,311 - OCE_Engage_V1 -INFO - Objective section is displayed
+2024-06-23 14:01:43,467 - OCE_Engage_V1 -INFO - Review page is opened
+2024-06-23 14:01:46,607 - OCE_Engage_V1 -INFO - Ready to create account
+2024-06-23 14:06:34,115 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 14:06:35,525 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 14:06:36,654 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 14:06:56,273 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 14:06:56,274 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 14:07:03,113 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 14:07:08,279 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 14:07:28,417 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 14:07:38,565 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 14:07:38,696 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 14:07:40,832 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 14:07:45,970 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 14:08:01,162 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 14:08:01,538 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 14:08:03,677 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 14:08:07,007 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 14:08:08,261 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 14:08:09,509 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 14:08:11,640 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 14:08:26,790 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 14:08:28,080 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 14:08:31,302 - OCE_Engage_V1 -INFO - Start Date Entered
+2024-06-23 14:08:35,501 - OCE_Engage_V1 -INFO - End Date Entered
+2024-06-23 14:08:35,640 - OCE_Engage_V1 -INFO - Objective section is displayed
+2024-06-23 14:08:55,763 - OCE_Engage_V1 -INFO - Review page is opened
+2024-06-23 14:08:58,898 - OCE_Engage_V1 -INFO - Ready to create account
+2024-06-23 14:10:46,559 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 14:10:47,985 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 14:10:49,169 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 14:11:10,730 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 14:11:10,731 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 14:11:15,883 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 14:11:21,014 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 14:11:41,152 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 14:11:51,282 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 14:11:51,420 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 14:11:53,540 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 14:11:58,679 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 14:12:13,877 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 14:12:14,251 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 14:12:16,392 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 14:12:19,715 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 14:12:20,960 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 14:12:22,208 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 14:12:24,339 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 14:12:39,525 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 14:12:40,829 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 14:12:44,085 - OCE_Engage_V1 -INFO - Start Date Entered
+2024-06-23 14:12:48,299 - OCE_Engage_V1 -INFO - End Date Entered
+2024-06-23 14:12:48,419 - OCE_Engage_V1 -INFO - Objective section is displayed
+2024-06-23 14:13:08,537 - OCE_Engage_V1 -INFO - Review page is opened
+2024-06-23 14:13:11,646 - OCE_Engage_V1 -INFO - Ready to create account
+2024-06-23 14:14:37,679 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 14:14:39,140 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 14:14:40,367 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 14:14:58,798 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 14:14:58,799 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 14:15:03,907 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 14:15:09,019 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 14:15:29,148 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 14:15:39,274 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 14:15:39,403 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 14:15:41,511 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 14:15:46,643 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 14:16:01,798 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 14:16:02,145 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 14:16:04,288 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 14:16:07,575 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 14:16:08,868 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 14:16:10,123 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 14:16:12,245 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 14:16:27,390 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 14:16:28,747 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 14:16:31,968 - OCE_Engage_V1 -INFO - Start Date Entered
+2024-06-23 14:16:38,192 - OCE_Engage_V1 -INFO - End Date Entered
+2024-06-23 14:16:38,313 - OCE_Engage_V1 -INFO - Objective section is displayed
+2024-06-23 14:16:58,421 - OCE_Engage_V1 -INFO - Review page is opened
+2024-06-23 14:17:01,546 - OCE_Engage_V1 -INFO - Ready to create account
+2024-06-23 14:21:41,947 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 14:21:43,417 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 14:21:44,578 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 14:21:59,943 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 14:21:59,944 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 14:22:05,069 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 14:22:10,194 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 14:22:30,338 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 14:22:40,466 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 14:22:40,603 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 14:22:42,734 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 14:22:47,852 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 14:23:03,003 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 14:23:03,339 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 14:23:05,497 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 14:23:08,806 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 14:23:10,056 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 14:23:11,319 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 14:23:13,432 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 14:23:28,573 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 14:23:29,879 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 14:23:33,076 - OCE_Engage_V1 -INFO - Start Date Entered
+2024-06-23 14:23:39,309 - OCE_Engage_V1 -INFO - End Date Entered
+2024-06-23 14:23:39,451 - OCE_Engage_V1 -INFO - Objective section is displayed
+2024-06-23 14:23:59,559 - OCE_Engage_V1 -INFO - Review page is opened
+2024-06-23 14:24:02,713 - OCE_Engage_V1 -INFO - Ready to create account
+2024-06-23 14:30:25,933 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 14:30:27,322 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 14:30:28,457 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 14:30:44,651 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 14:30:44,652 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 14:30:49,824 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 14:30:54,947 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 14:31:15,096 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 14:31:25,266 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 14:31:25,412 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 14:31:27,514 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 14:31:32,668 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 14:31:47,850 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 14:31:48,180 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 14:31:50,337 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 14:31:53,692 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 14:31:54,964 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 14:31:56,212 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 14:31:58,321 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 14:32:13,511 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 14:32:14,806 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 14:32:18,048 - OCE_Engage_V1 -INFO - Start Date Entered
+2024-06-23 14:32:24,245 - OCE_Engage_V1 -INFO - End Date Entered
+2024-06-23 14:32:24,431 - OCE_Engage_V1 -INFO - Objective section is displayed
+2024-06-23 14:32:44,539 - OCE_Engage_V1 -INFO - Review page is opened
+2024-06-23 14:34:58,231 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 14:34:59,616 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 14:35:00,734 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 14:35:18,737 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 14:35:18,738 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 14:35:23,907 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 14:35:29,112 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 14:35:49,312 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 14:35:59,445 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 14:35:59,594 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 14:36:01,731 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 14:36:06,865 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 14:36:22,022 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 14:36:22,370 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 14:36:24,514 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 14:36:27,851 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 14:36:29,091 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 14:36:30,322 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 14:36:32,433 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 14:36:47,642 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 14:36:48,920 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 14:36:52,159 - OCE_Engage_V1 -INFO - Start Date Entered
+2024-06-23 14:49:00,186 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 14:49:01,359 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 14:49:02,645 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 14:49:19,647 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 14:49:19,647 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 14:49:24,801 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 14:49:29,903 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 14:49:50,025 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 14:50:00,214 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 14:50:00,369 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 14:50:02,495 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 14:50:07,623 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 14:50:22,836 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 14:50:23,116 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 14:50:25,238 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 14:50:28,518 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 14:50:29,755 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 14:50:30,993 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 14:50:33,118 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 14:50:48,267 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 14:50:49,598 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 14:50:52,778 - OCE_Engage_V1 -INFO - Start Date Entered
+2024-06-23 14:50:58,995 - OCE_Engage_V1 -INFO - End Date Entered
+2024-06-23 14:50:59,156 - OCE_Engage_V1 -INFO - Objective section is displayed
+2024-06-23 14:51:19,287 - OCE_Engage_V1 -INFO - Review page is opened
+2024-06-23 14:51:22,410 - OCE_Engage_V1 -INFO - Ready to create account
+2024-06-23 14:54:41,333 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 14:54:42,758 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 14:54:43,941 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 14:55:02,106 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 14:55:02,107 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 14:55:07,266 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 14:55:12,390 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 14:55:32,539 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 14:55:42,679 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 14:55:42,829 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 14:55:44,946 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 14:55:50,070 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 14:56:05,271 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 14:56:05,613 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 14:56:07,760 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 14:56:11,028 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 14:56:12,270 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 14:56:13,520 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 14:56:15,684 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 14:56:30,827 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 14:56:32,131 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 14:56:35,330 - OCE_Engage_V1 -INFO - Start Date Entered
+2024-06-23 14:56:41,616 - OCE_Engage_V1 -INFO - End Date Entered
+2024-06-23 14:56:41,771 - OCE_Engage_V1 -INFO - Objective section is displayed
+2024-06-23 14:57:01,947 - OCE_Engage_V1 -INFO - Review page is opened
+2024-06-23 14:57:05,075 - OCE_Engage_V1 -INFO - Ready to create account
+2024-06-23 14:57:30,210 - OCE_Engage_V1 -INFO - Account created successfully.
+2024-06-23 14:57:36,626 - OCE_Engage_V1 -INFO - Logout Successfully.!
+2024-06-23 15:19:05,872 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 15:19:07,313 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 15:19:08,447 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 15:19:25,938 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 15:19:25,938 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 15:19:31,066 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 15:19:36,218 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 15:19:56,368 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 15:20:06,496 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 15:20:06,647 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 15:20:08,756 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 15:20:13,905 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 15:20:29,113 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 15:20:29,503 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 15:20:31,644 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 15:20:34,924 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 15:20:36,173 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 15:20:37,424 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 15:20:39,532 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 15:20:54,677 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 15:20:55,989 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 15:20:59,207 - OCE_Engage_V1 -INFO - Start Date Entered
+2024-06-23 15:21:05,412 - OCE_Engage_V1 -INFO - End Date Entered
+2024-06-23 15:21:10,731 - OCE_Engage_V1 -INFO - Objective section is displayed
+2024-06-23 15:21:30,867 - OCE_Engage_V1 -INFO - Review page is opened
+2024-06-23 15:21:33,997 - OCE_Engage_V1 -INFO - Ready to create account
+2024-06-23 15:21:59,134 - OCE_Engage_V1 -INFO - Account created successfully.
+2024-06-23 15:22:05,512 - OCE_Engage_V1 -INFO - Logout Successfully.!
+2024-06-23 15:41:55,217 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 15:41:56,401 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 15:41:57,558 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 15:42:15,263 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 15:42:15,263 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 15:42:20,823 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 15:42:26,040 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 15:42:46,308 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 15:42:56,496 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 15:42:56,676 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 15:42:58,887 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 15:43:04,048 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 15:43:19,287 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 15:43:19,803 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 15:43:21,992 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 15:43:25,418 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 15:43:26,706 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 15:43:28,108 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 15:43:30,239 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 15:43:45,522 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 15:43:47,122 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 15:43:50,406 - OCE_Engage_V1 -INFO - Start Date Entered with Todays Date
+2024-06-23 15:43:56,766 - OCE_Engage_V1 -INFO - End Date is Entered with Future Date
+2024-06-23 15:46:24,633 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 15:46:25,815 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 15:46:26,903 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 15:46:44,185 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 15:46:44,188 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 15:46:49,351 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 15:46:54,507 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 15:47:14,647 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 15:47:24,810 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 15:47:25,022 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 15:47:27,170 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 15:47:32,320 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 15:47:47,521 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 15:47:47,986 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 15:47:50,157 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 15:47:53,527 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 15:47:54,823 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 15:47:56,137 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 15:47:58,284 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 15:48:13,465 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 15:48:14,924 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 15:48:18,189 - OCE_Engage_V1 -INFO - Start Date Entered with Todays Date
+2024-06-23 15:48:24,423 - OCE_Engage_V1 -INFO - End Date is Entered with Future Date
+2024-06-23 16:04:39,159 - OCE_Engage_V1 -INFO - URL is Opened
+2024-06-23 16:04:40,315 - OCE_Engage_V1 -INFO - Entered Username
+2024-06-23 16:04:41,496 - OCE_Engage_V1 -INFO - Entered Password
+2024-06-23 16:04:57,063 - OCE_Engage_V1 -INFO - Login test Passed
+2024-06-23 16:04:57,063 - OCE_Engage_V1 -INFO - Meeting Initiation Started..
+2024-06-23 16:05:02,202 - OCE_Engage_V1 -INFO - Clicked on New Engagements
+2024-06-23 16:05:07,562 - OCE_Engage_V1 -INFO - Clicked on Record Type
+2024-06-23 16:05:28,056 - OCE_Engage_V1 -INFO - Organization page is opened
+2024-06-23 16:05:38,195 - OCE_Engage_V1 -INFO - Organizing BU clicked
+2024-06-23 16:05:38,394 - OCE_Engage_V1 -INFO - Organizing BU Selected
+2024-06-23 16:05:40,637 - OCE_Engage_V1 -INFO - Payer clicked
+2024-06-23 16:05:45,868 - OCE_Engage_V1 -INFO - Payer Selected
+2024-06-23 16:06:01,128 - OCE_Engage_V1 -INFO - Details Page Opened
+2024-06-23 16:06:01,722 - OCE_Engage_V1 -INFO - Meeting Name Entered
+2024-06-23 16:06:03,895 - OCE_Engage_V1 -INFO - Planned Experts Entered
+2024-06-23 16:06:07,296 - OCE_Engage_V1 -INFO - Sub Type is Selected
+2024-06-23 16:06:08,608 - OCE_Engage_V1 -INFO - Location Type is selected
+2024-06-23 16:06:10,027 - OCE_Engage_V1 -INFO - Promotion Nature is Selected
+2024-06-23 16:06:12,241 - OCE_Engage_V1 -INFO - Details page is displayed
+2024-06-23 16:06:27,438 - OCE_Engage_V1 -INFO - Date Time Page Displayed
+2024-06-23 16:06:28,834 - OCE_Engage_V1 -INFO - Hosting Timezone is selected
+2024-06-23 16:06:32,106 - OCE_Engage_V1 -INFO - Start Date Entered with Todays Date
+2024-06-23 16:06:38,457 - OCE_Engage_V1 -INFO - End Date is Entered with Future Date

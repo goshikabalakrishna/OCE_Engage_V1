@@ -14,7 +14,7 @@
 		<classes>
 			<!-- <class name="com.oceengage.testCases.TC_Loging_001" /> -->
 		    <class name="com.oceengage.testCases.TC_Initiation_002" />
-		   	<!--  <class name="com.oceengage.testCases.TC_Loging_001" />  -->
+		   	<!--  <class name="com.oceengage.testCases.TC_MeetingSections_003" />  -->
 
 		</classes>
 	</test>
