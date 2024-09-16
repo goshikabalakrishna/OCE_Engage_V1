@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-OCE_Engage_V1">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-OCE_Engage_V1" title="com.oceengage.testCases.TC_Initiation_002" class="method navigator-link" hash-for-method="InitiationPage">InitiationPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-OCE_Engage_V1" title="com.oceengage.testCases.TC_Loging_001" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-OCE_Engage_V1 -->
@@ -121,23 +121,23 @@
           <div class="suite-OCE_Engage_V1-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.oceengage.testCases.TC_Initiation_002</span>
+              <span class="class-name">com.oceengage.testCases.TC_Loging_001</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="InitiationPage">
-                  </a> <!-- InitiationPage -->
-                  <span class="method-name">InitiationPage</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&quot;Objectives&quot;]//parent::span//following-sibling::div//div[@class=&quot;slds-rich-text-editor__textarea slds-grid editor ql-container&quot;]//div//p&quot;}
-  (Session info: chrome=126.0.6478.114)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
 Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7988096709e335d487f7792abb89f80d, findElement {value=//span[text()=&quot;Objectives&quot;]//parent::span//following-sibling::div//div[@class=&quot;slds-rich-text-editor__textarea slds-grid editor ql-container&quot;]//div//p, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\GBALAK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51804/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7988096709e335d487f7792abb89f80d
+Command: [919957724d39962ce8c5f2bcd169ba3e, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\GBALAK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50304/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 919957724d39962ce8c5f2bcd169ba3e
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -145,11 +145,10 @@ Session ID: 7988096709e335d487f7792abb89f80d
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at com.oceengage.testCases.TC_Initiation_002.InitiationPage(TC_Initiation_002.java:176)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:305)
+	at com.oceengage.testCases.TC_Loging_001.loginTest(TC_Loging_001.java:34)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -173,7 +172,7 @@ Session ID: 7988096709e335d487f7792abb89f80d
   &lt;test thread-count=&quot;5&quot; name=&quot;OCE Engage App Testing chrome&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.oceengage.testCases.TC_Initiation_002&quot;/&gt;
+      &lt;class name=&quot;com.oceengage.testCases.TC_Loging_001&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- OCE Engage App Testing chrome --&gt;
 &lt;/suite&gt; &lt;!-- OCE_Engage_V1 --&gt;
@@ -215,14 +214,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'InitiationPage')
-data.setCell(0, 2, 'com.oceengage.testCases.TC_Initiation_002')
-data.setCell(0, 3, 134858);
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.oceengage.testCases.TC_Loging_001')
+data.setCell(0, 3, 8967);
 window.suiteTableData['OCE_Engage_V1']= { tableData: data, tableDiv: 'times-div-OCE_Engage_V1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-OCE_Engage_V1">
               </div> <!-- times-div-OCE_Engage_V1 -->
             </div> <!-- times-div -->
@@ -248,7 +247,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.oceengage.testCases.TC_Initiation_002</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.oceengage.testCases.TC_Loging_001</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
@@ -256,12 +255,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">InitiationPage</span>
-                <span class="method-start">6505 ms</span>
+                <span class="method-name">loginTest</span>
+                <span class="method-start">5369 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">141378 ms</span>
+                <span class="method-start">14361 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

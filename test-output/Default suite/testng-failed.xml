@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.oceengage.testCases.TC_Initiation_002">
+      <class name="com.oceengage.testCases.TC_MeetingSubSections_003">
         <methods>
-          <include name="InitiationPage"/>
+          <include name="MeetingSubSectionsPage"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.oceengage.testCases.TC_Initiation_002 -->
+      </class> <!-- com.oceengage.testCases.TC_MeetingSubSections_003 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

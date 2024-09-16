@@ -8,8 +8,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
-
-import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
 
 import org.openqa.selenium.Keys;
@@ -43,13 +41,16 @@ public class TC_Initiation_002 extends BaseClass
 		lp.clickSubmit();
 		Thread.sleep(5000);
 		
-		if(driver.getTitle().equals(("Home | Salesforce")))
+		if(driver.getTitle().equals("Home | Salesforce"))
 		{
 			Assert.assertTrue(true);
-			logger.info("Login test Passed");
-			
+			logger.info("Login test Passed");	
 		}
-		
+		else
+		{
+			Assert.assertTrue(false);
+			logger.info("Login Failed.");
+		}
 		logger.info("Meeting Initiation Started..");
 
 		Thread.sleep(5000);
@@ -69,7 +70,6 @@ public class TC_Initiation_002 extends BaseClass
 		Thread.sleep(10000);
 		logger.info("Organizing BU clicked");
 		
-		//ip.clickAdvanceSearch();
 		ip.clickBusinessUnit();
 		logger.info("Organizing BU Selected");
 		Thread.sleep(2000);
@@ -83,14 +83,15 @@ public class TC_Initiation_002 extends BaseClass
 		logger.info("Payer Selected");
 		Thread.sleep(5000);
 		
-
 		ip.clickNext2();
 		Thread.sleep(10000);
 		
 		logger.info("Details Page Opened");
 		
-		String meetingName = "Auto Meeting "+randomNumber();
-		ip.inputMeetingName(meetingName);
+		//String meetingNameManual = "Auto Meeting AB E2E Flow";
+		//ip.inputMeetingName(meetingNameManual);
+		String meetingNameAuto = "Auto Meeting "+randomNumber();
+		ip.inputMeetingName(meetingNameAuto);
 		logger.info("Meeting Name Entered");
 		Thread.sleep(2000);
 		
@@ -126,8 +127,7 @@ public class TC_Initiation_002 extends BaseClass
 		WebElement selectFB= driver.findElement(By.xpath("//button[@name='OCE__FBServedBy__c']//following::div[2]/lightning-base-combobox-item[2]"));
 		selectFB.click();
 		logger.info("FB is Selected");
-		
-		
+			
 		WebElement details = driver.findElement(By.xpath("//span[contains(text(),'Details')]"));
 		details.click();
 		Thread.sleep(2000);
@@ -168,19 +168,15 @@ public class TC_Initiation_002 extends BaseClass
 		endDateInput.sendKeys(formattedEndDate.toString());	
 		Thread.sleep(4000);
 		logger.info("End Date is Entered with Future Date");
-		
-		
+				
 		WebElement FormattedEndReadOnly = driver.findElement(By.xpath("//span[contains(text(),'Formatted End Date/Time')]"));
 		FormattedEndReadOnly.click();
 		Thread.sleep(5000);
-		
-		
+				
 		WebElement next1 = driver.findElement(By.xpath("//body[1]/div[4]/div[1]/section[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/section[1]/div[1]/div[1]/section[1]/flowruntime-flow[1]/flowruntime-lwc-body[1]/div[1]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[4]/flowruntime-aura-field[1]/div[1]/div[1]/div[2]/engage-apo-button[1]/button[1]"));
 		next1.click();
-		
-		
-		//Objective Section need to impplement
-		
+				
+		//Objective Section need to impplement	
 		/*WebElement objective = driver.findElement(By.xpath("//span[text()=\"Objectives\"]//parent::span//following-sibling::div//div[@class=\"slds-rich-text-editor__textarea slds-grid editor ql-container\"]//div//p"));
 		//objective.click();
 		Thread.sleep(2000);
@@ -199,13 +195,12 @@ public class TC_Initiation_002 extends BaseClass
 		Thread.sleep(3000);
 		
 		logger.info("Ready to create account");
-
-		
+	
 		WebElement create = driver.findElement(By.xpath("//body[1]/div[4]/div[1]/section[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/section[1]/div[1]/div[1]/section[1]/flowruntime-flow[1]/flowruntime-lwc-body[1]/div[1]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[5]/flowruntime-aura-field[1]/div[1]/div[1]/div[2]/engage-apo-button[1]/button[1]"));
 		create.click();
 		Thread.sleep(25000);
 		
-		if (driver.getTitle().equals(meetingName+" | Meeting | Salesforce")) 
+		if (driver.getTitle().equals(meetingNameAuto+" | Meeting | Salesforce")) 
 		{
 			Assert.assertTrue(true);
 			logger.info("Account created successfully.");
@@ -213,8 +208,7 @@ public class TC_Initiation_002 extends BaseClass
 			Thread.sleep(3000);
 			//lp.clickLogout();
 			//Thread.sleep(3000);
-			//logger.info("Logout Successfully.!");
-			
+			//logger.info("Logout Successfully.!");		
 		}
 		else
 		{
@@ -222,24 +216,8 @@ public class TC_Initiation_002 extends BaseClass
 			logger.info("Account Creation Failed.");
 			captureScreen(driver, "Initiation Page");
 		}
-			
-	
-	}
-	
-	public String randomString()
-	{
-		String generatedString = RandomStringUtils.randomAlphabetic(3);
-		return(generatedString);
-		
-	}
-	public String randomNumber()
-	{
-		
-		String generatedNumber = RandomStringUtils.randomNumeric(2);
-		return(generatedNumber);
-		
-		
 	}
 	
 
+	
 }

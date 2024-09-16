@@ -56,9 +56,9 @@ public class ReadConfig {
 		String ie = pro.getProperty("iepath");
 		return ie;
 	}
-	public String getCountry() 
+	public String getMeetingName() 
 	{
-		String country = pro.getProperty("country");
-		return country;
+		String mname = pro.getProperty("meetingname");
+		return mname;
 	}
 }

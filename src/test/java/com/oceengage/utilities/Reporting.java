@@ -44,7 +44,7 @@ public class Reporting extends TestListenerAdapter
 		
 		htmlReporter.config().setDocumentTitle("OCE Engage Test Automation");
 		htmlReporter.config().setReportName("Functional test automation");
-		htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
+		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
 		htmlReporter.config().setTheme(Theme.DARK);
 	}
 	public void onTestSuccess(ITestResult tr)

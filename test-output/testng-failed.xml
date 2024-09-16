@@ -7,13 +7,13 @@
   <test thread-count="5" name="OCE Engage App Testing chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.oceengage.testCases.TC_Initiation_002">
+      <class name="com.oceengage.testCases.TC_Loging_001">
         <methods>
-          <include name="InitiationPage"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.oceengage.testCases.TC_Initiation_002 -->
+      </class> <!-- com.oceengage.testCases.TC_Loging_001 -->
     </classes>
   </test> <!-- OCE Engage App Testing chrome(failed) -->
 </suite> <!-- Failed suite [OCE_Engage_V1] -->

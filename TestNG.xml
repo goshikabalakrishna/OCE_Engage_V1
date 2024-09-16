@@ -9,12 +9,12 @@
 		<listener class-name="com.oceengage.utilities.Reporting"/>
 	</listeners>
 
-	<test name="OCE Engage App Testing chrome">
+	<test name="OCE Engage App Testing chrome"> 
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<!-- <class name="com.oceengage.testCases.TC_Loging_001" /> -->
-		    <class name="com.oceengage.testCases.TC_Initiation_002" />
-		   	<!--  <class name="com.oceengage.testCases.TC_MeetingSections_003" />  -->
+			<class name="com.oceengage.testCases.TC_Loging_001" />
+		    <!-- class name="com.oceengage.testCases.TC_Initiation_002" /> -->
+		    <!-- <class name="com.oceengage.testCases.TC_MeetingSubSections_003" /> -->
 
 		</classes>
 	</test>
